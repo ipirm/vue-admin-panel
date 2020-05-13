@@ -1,0 +1,139 @@
+.upload-image{
+  margin-bottom: 12px;
+  .custom-file-upload{
+    padding-bottom: 12px;
+    float: left;
+    .upload-button-div{
+      width: 200px;
+      padding: 12px 15px;
+      border-radius: 2px;
+      background-color: #2980b9;
+      background-size: cover;
+      font-size: 13px;
+      color: #ffffff;
+      font-weight: 500;
+      text-decoration: none solid white;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+  .file-show-block{
+    float: left;
+    .file-show-block-content{
+      padding-top: 8px;
+      padding-bottom: 12px;
+      background-size: cover;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      .image-block-upload{
+        position: relative;
+        img{
+          width: 200px;
+          height: 200px;
+        }
+        .delete-image-icon{
+          position: absolute;
+          right: 8px;
+          top: 8px;
+          float: left;
+          svg{
+            color: #b5c9d5;
+            width: 16px;
+            height: 16px;
+          }
+        }
+      }
+      .writing{
+        float: left;
+        margin-right: 20px;
+      }
+      .delete-icon{
+        float: left;
+        svg{
+          color: #b5c9d5;
+          width: 12px;
+          height: 16px;
+        }
+      }
+    }
+  }
+  input{
+    display: none;
+  }
+
+}
+.full-width{
+  width: 100%;
+}
+.custom-textarea{
+  width: 700px;
+  height: 100px;
+  resize: none;
+  margin-bottom: 1rem;
+}
+.textarea-wiswig-custom{
+  width: 700px !important;
+  margin-top: 9px;
+  margin-bottom: 12px;
+  .editr{
+    width: 700px !important;
+  }
+}
+.default-label{
+  font-size: 13px;
+  color: #052e46;
+  margin-bottom: 9px;
+  margin-top: 4px;
+}
+.text-blocks{
+  display: block;
+  font-size: 13px;
+  color: #6b94ac;
+  font-weight: 500;
+  cursor: pointer;
+  .text-block{
+    display: block;
+  }
+  .add-new-text-block{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.add-item{
+  width: 200px;
+  padding: 12px 15px;
+  border-radius: 2px;
+  background-color: #2980b9;
+  background-size: cover;
+  font-size: 13px;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none solid white;
+  text-align: center;
+  cursor: pointer;
+}
+.items{
+  .item{
+    .title{
+      overflow: auto;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      .delete-item-block svg{
+        width: 12px;
+        height: 16px;
+        color: #b5c9d5;
+        padding-top: 1px;
+        padding-left: 5px;
+        float: left;
+        cursor: pointer;
+      }
+      span{
+        float: left;
+      }
+    }
+
+  }
+}

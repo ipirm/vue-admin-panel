@@ -1,0 +1,246 @@
+.promotions-list{
+  h1{
+    font-size: 24px;
+    color: #052e46;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .content{
+    max-width: 772px;
+    .search-create-block{
+      .input-cont{
+        display: inline-block;
+      }
+      input{
+        border: 1px solid #b5c9d5;
+        border-radius: 2px;
+        float: left;
+      }
+      button{
+        float: right;
+      }
+    }
+    .items{
+      border-top: 1px solid #edeef0;
+      .item{
+        padding-top: 22px;
+        padding-bottom: 22px;
+        overflow: auto;
+        border-bottom: 1px solid #edeef0;
+        position: relative;
+        .avatar-block{
+          float: left;
+          width: 125px;
+          height: 125px;
+          border-radius: 100px;
+          background-color: #e6edf1;
+          background-repeat: no-repeat;
+          background-size: cover;
+          .number-block{
+            font-size: 20px;
+            color: #2980b9;
+            text-transform: capitalize;
+            text-align: center;
+            margin-top: 46px;
+            font-weight: 600;
+          }
+        }
+        .info-block{
+          max-width: 500px;
+          margin-left: 34px;
+          margin-top: 6px;
+          float: left;
+          .title{
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 0px;
+            svg{
+              height: 20px;
+              width: 20px;
+              vertical-align: middle;
+            }
+          }
+          .code{
+            font-size: 12px;
+            color: #6b94ac;
+            text-transform: capitalize;
+            margin-bottom: 12px;
+          }
+          .date-block{
+            font-size: 14px;
+            color: #052e46;
+            text-decoration: none solid rgb(5, 46, 70);
+            text-transform: capitalize;
+            margin-bottom: 18px;
+          }
+          .checkbox-block{
+            .writing{
+              float: left;
+              font-size: 13px;
+              text-transform: capitalize;
+              width: 54px;
+              margin-top: 5px;
+            }
+            .checkbox-item{
+              float: left;
+            }
+          }
+          .percents-main-block{
+            display: flex;
+            width: 100%;
+            .percents-block{
+              margin-top: 7px;
+              display: block;
+              width: 100%;
+              font-size: 12px;
+              color: #052e46;
+              .percents{
+                font-weight: 700;
+              }
+            }
+          }
+          .progress-block{
+            display: flex;
+            width: 100%;
+            .progress{
+              width: 150px;
+              height: 5px;
+              border-radius: 2px;
+              background-color: #e6edf1;
+              background-size: cover;
+            }
+
+            .active-progress{
+              display:flex;
+              width: 75px;
+              height: 5px;
+              border-radius: 2px;
+              background-color: #2980b9;
+              background-size: cover;
+            }
+          }
+          .button-block{
+            padding-top: 10px;
+            display: flex;
+            width: 100%;
+            button{
+              height: 32px;
+              padding: 0px 21px;
+            }
+          }
+        }
+        .icons-block{
+          position: absolute;
+          right: 3px;
+          bottom: 24px;
+          .edit{
+            float: left;
+            cursor: pointer;
+            svg{
+              width: 16px;
+              height: 16px;
+              fill: #b5c9d5;
+            }
+          }
+          .copy{
+            margin-left: 19px;
+            float: left;
+            cursor: pointer;
+            svg{
+              width: 16px;
+              height: 16px;
+              fill: #b5c9d5;
+            }
+          }
+          .delete{
+            float: left;
+            margin-left: 21px;
+            cursor: pointer;
+            svg{
+              width: 16px;
+              height: 16px;
+              fill: #b5c9d5;
+            }
+          }
+        }
+      }
+    }
+    .pagination-cont{
+      margin-top: 20px;
+      margin-bottom: 100px;
+    }
+  }
+}
+.create-promotion-modal{
+  .title{
+    font-size: 22px;
+    color: #052e46;
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  .tour-search-block{
+    margin-bottom: 10px;
+    label{
+      font-size: 13px;
+      color: #052e46;
+      line-height: 30px;
+    }
+  }
+  .datepickers-block{
+    .datepicker-item{
+      float: left;
+      label{
+        font-size: 13px;
+        color: #052e46;
+      }
+      input{
+        width: 264px;
+      }
+    }
+    .datepicker-item-second{
+      margin-left: 22px;
+    }
+  }
+  .amount-type-block{
+    margin-bottom: 32px;
+    .amount-input{
+      float: left;
+    }
+    .radio-buttons-list{
+      float: left;
+      width: 263px;
+      margin-left: 22px;
+      .main-label{
+        font-size: 13px;
+        color: #052e46;
+        width: 100%;
+        display: block;
+        margin-top: 6px;
+        margin-bottom: 16px;
+      }
+      .radio-button-element{
+        input{
+          float: left;
+        }
+        label{
+          float: left;
+          font-size: 13px;
+          color: #052e46;
+          line-height: 21px;
+          margin-left: 5px;
+          text-transform: capitalize;
+        }
+        margin-right: 24px;
+        overflow: auto;
+        float: left;
+      }
+    }
+  }
+  .buttons{
+    .save-button{
+      margin-left: 12px;
+    }
+    margin-bottom: 44px;
+  }
+
+}
